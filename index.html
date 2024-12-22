@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Security page</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="icons/file-SbZtM86MdUPj7uM4Efy6NK.webp" width="50px" class="rounded-circle" height="50px" alt="mylogo"> Berimbolo security</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-primary" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About us.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact us.html">Contact us</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col-md-6 mt-5">
+        <div class="right mt-5">
+          <h2 class="headerr">Web Security Company</h2>
+          <p class="paragraph mt-5">Security solutions for homes and businesses include cameras and locks, offering protection and reliability. These tools ensure safety and deter threats effectively.
+          </p>
+          <button href="#id" data-bs-toggle="modal" class="btn btn-primary btn-lg mt-5 rounded-5 px-5 py-2">Sign in</button>
+          <div id="id" class="modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2>Sign in</h2>
+                  <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="text-primary">Enter your information</p>
+                  <br>
+                  <div class="form-group">
+                    <form action="" onsubmit="return validateForm()">
+                      <input class="form-control" id="name" placeholder="Enter your name" type="text">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <input class="form-control" id="pass1" placeholder="Enter your password" type="password">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <input class="form-control" id="email" placeholder="Enter your email" type="password">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <textarea placeholder="Enter your message" class="form-control" name="" id="message" cols="30" rows="7"></textarea>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button data-bs-dismiss="modal" class="btn btn-secondary">cancel</button>
+                    <button type="submit" class="btn btn-primary">Confirm</button>
+                    </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mt-5">
+        <img src="image/62eb2045ccd65.jpg" class="img-fluid" alt="security-image" srcset="">
+      </div>
+    </div>
+  </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
